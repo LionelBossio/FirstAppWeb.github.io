@@ -1,0 +1,62 @@
+
+Login like Admin
+
+
+Usuario: ADMIN
+contraseña: ADMIN
+
+-------------------------------------
+
+Like Passenger
+Usuario: pepe1
+contraseña: 1234
+
+Usuario: jose1
+contraseña: 123
+
+Usuario: VictorJose
+contraseña: 12345
+
+Usuario: JuanPedro
+contraseña: 12345
+
+-------------------------------------
+
+Employee ticket supervisor
+
+Usuario: empleadoSimon
+contraseña: 1234
+
+-------------------------------------
+Usuario: empleadoJesus
+contraseña: 12345
+
+-------------------------------------
+
+Road and travel safety
+
+Usuario: empleadoMartin
+contraseña: 12345
+
+Usuario: empleadoGerardo
+contraseña: 12345
+
+-------------------------------------
+
+Machinist
+
+Usuario: empleadoIan
+contraseña: 12345
+
+Usuario: empleadoGaizka
+contraseña: 12345
+
+-------------------------------------
+
+Ticket Office Managers
+
+Usuario: empleadoIan
+contraseña: 12345
+
+Usuario: empleadoJon
+contraseña: 12345

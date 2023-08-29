@@ -1,0 +1,2706 @@
+/*Cuando no me lo tome apretar SHIFT + CRTL + R en en navegador*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: palegoldenrod;
+	font-family: Rockwell;
+}
+
+a{
+	color:  black;
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*---------INDEX--------------------------------------------------------*/
+
+	#bodyIndex{
+			background: url("Imagenes/FondoEgipt.jpg")  center center fixed; /* El problema es la imagen*/
+			background-size: cover;
+			background-color: navajowhite;
+			background-size: 100%;
+	}
+
+	#sectionIndex{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#headerIndex{
+		background-color: goldenrod;
+		width: 100%;
+		height: 80px;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		border-top: 5px solid #0D214F;
+		border-bottom: 5px solid #0D214F;
+		overflow: hidden;
+		position: fixed;
+		z-index: 1000;
+	}
+
+	#TituloHeaderIndex{
+		font-family: Rockwell;
+		font-size: 50px;
+		float: left;
+		line-height: 65px;
+		margin-left: 10px
+	}
+
+	#menuLoginIndex{
+		float: right;
+		line-height: 20px;
+		margin: 15px 0;
+	}
+
+	.liListaIndex{
+		float: right;
+		line-height: 20px;
+		margin: 15px 0;
+	}
+
+	.aListaIndex{
+		display: inline-block;
+		font-family: Rockwell;
+		font-weight: bold;
+		text-decoration: none;
+		text-align: center;
+		margin: 5px 20px 5px 0;
+		padding: 5px 20px;
+	}
+
+	.aListaIndex:hover{
+		background-color: floralwhite;
+		opacity: 90%;
+		border-radius: 20px;
+		padding: 1px 20px;
+	}
+
+	.liListaIndexAdmin{
+		float: right;
+		line-height: 20px;
+		margin: 15px 0;
+	}
+
+	.aListaIndexAdmin{
+		display: inline-block;
+		font-family: Rockwell;
+		font-weight: bold;
+		text-decoration: none;
+		text-align: center;
+		margin: 5px 5px 5px 0;
+		padding: 5px 20px;
+	}
+
+	.aListaIndexAdmin:hover{
+		background-color: floralwhite;
+		opacity: 90%;
+		border-radius: 10px;
+		padding: 1px 20px;
+	}
+
+	.aRegisIndex{
+		font-family: Rockwell;
+		font-weight: bold;
+		font-size: 12px;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		border-style: none;
+		padding: 0 20px;
+	}
+
+	.aRegisIndex:hover{
+		opacity: 70%;
+	}
+
+	.aLoginIndex{
+		font-family: Rockwell;
+		font-weight: bold;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		box-sizing: border-box;
+		border-style: none;
+		padding: 0 20px;
+	}
+
+	.aLoginIndex:hover{
+		opacity: 70%;
+	}
+
+	.aLogOutIndex{
+		font-family: Rockwell;
+		font-weight: bold;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		box-sizing: border-box;
+		border-style: none;
+		padding: 10px 20px;
+	}
+
+	.aLogOutIndex:hover{
+		opacity: 70%;
+	}
+
+
+	#QuienesSomosIndex{
+		float: left;
+		margin: 0 10%;
+		margin-top: 10%;
+		margin-bottom: 3%;
+		text-align: center;
+		font-family: Rockwell;
+		font-size: 15px;
+		border-radius: 25px;
+		border-style: none;
+		background-color: floralwhite;
+		opacity: 85%;
+	}
+
+	#turismoIndex{
+		float: left;
+		margin: 0 10%;
+		margin-bottom: 3%;
+		text-align: center;
+		font-family: Rockwell;
+		border-radius: 25px;
+		border-style: none;
+		background-color: floralwhite;
+		opacity: 85%;
+		width: 80%;
+		height: 50rem;
+	}
+
+	#turismoIndex h3{
+		font-family: Rockwell;
+		font-size: 20px;
+		margin-top: 3rem;
+	}
+
+	#turismoIndexNoCompra{
+		float: left;
+		margin: 0 10%;
+		margin-bottom: 3%;
+		text-align: center;
+		font-family: Rockwell;
+		border-radius: 25px;
+		border-style: none;
+		background-color: floralwhite;
+		opacity: 85%;
+		width: 80%;
+		height: 30rem;
+	}
+
+	#turismoIndexNoCompra h3{
+		font-family: Rockwell;
+		font-size: 20px;
+		margin-top: 3rem;
+	}
+
+	.galeria{
+		position: absolute;
+		top: 25rem;
+		left: 28rem;
+		width: 30rem;
+		height: 20rem;
+		z-index: -1;
+	}
+
+	#galeriaPrimeraImg{
+		position: absolute;
+		top: 25rem;
+		left: 28rem;
+		width: 30rem;
+		height: 20rem;
+		z-index: 1;
+	}
+
+	#luxorIndex{
+		float: left;
+		margin: 0 10%;
+		text-align: center;
+		width: 30%;
+		overflow: hidden;
+	}
+
+	#luxorIndex ul,li{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	#preciosIndex{
+		position: absolute;
+		top: 45rem;
+		left: 5rem;
+		line-height: 20px;
+		margin: 30px 13%;
+		text-align: center;
+	}
+
+	.preciosLista{
+		background-color: goldenrod;
+		border-radius: 15%;
+		float: left;
+		margin: 2% 0 2% 20%;
+		padding: 10px;
+		font-family: Rockwell;
+		font-weight: bold;
+		width: 20%;
+		text-align: center;
+		border: 2px solid black;
+	}
+
+	.infoIndex{
+		width: 270px;
+		height: 170px;
+		float: left;
+		margin: 15px 0 15px 10%;
+		border-radius: 20px;
+		text-align: center;
+		opacity: 80%;
+		background-color: floralwhite;
+		font-family: Rockwell;
+		font-weight: bold;
+		font-size: 15px;
+		
+		border: 2px solid black;
+	}
+
+	#footerIndex{
+		float: left;
+		background-color: goldenrod;
+		width: 100%;
+		height: 40px;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		border-top: 6px solid #0D214F;
+		border-bottom: 6px solid #0D214F;
+	}
+
+	#aMaps{
+		float: right;
+		font-family: Rockwell;
+		font-weight: bold;
+		width: 15%;
+		padding: 5px 5px;
+	}
+
+	.iconosIndex{
+		float: left;
+		padding: 5px 5px;
+		width: 5%;
+		margin: 0 0 0 0;
+	}
+
+	#abarracont{
+		float: left;
+		font-family: Rockwell;
+		font-weight: bold;
+		font-size: 20px;
+		padding: 2px 5px;
+		width: 70%;
+	}
+
+	
+
+	#CerrarSesion{
+		float: right;
+		background-color: floralwhite;
+		text-decoration: none;
+		text-align: center;
+		opacity: 80%;
+		padding: 7px;
+		margin: 0;
+		border-radius: 7px;
+	}
+
+	#CerrarSesion:hover{
+		opacity: 89%;
+	}
+
+	.Saludo{
+		width: 100%;
+		background-color: floralwhite;
+		opacity: 80%;
+		text-align: center;
+		clear: left;
+		float: left;
+		color: black;
+		margin-top: 5px;
+		font-family: Rockwell;
+		border: 2px solid gold;
+		border-radius: 5px;
+	}
+
+	.liLista1{
+		float: left;
+	}
+
+	.aLista1{
+		font-family: Rockwell;
+		font-weight: bold;
+		display: block;
+		background-color: floralwhite;
+		text-decoration: none;
+		text-align: center;
+		opacity: 80%;
+		padding: 7px;
+		margin: 0 5px;
+		border-radius: 7px;
+	}
+
+	.aLista1:hover{
+		opacity: 90%;
+		text-decoration: none;
+	}
+
+	.aLogin{
+		font-family: Rockwell;
+		font-weight: bold;
+		float: right;
+		display: block;
+		background-color: floralwhite;
+		text-decoration: none;
+		text-align: center;
+		margin: 0 10px;
+		opacity: 80%;
+		padding: 10px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	.aLogin:hover{
+		opacity: 90%;
+		text-decoration: none;
+	}
+
+	#barracont{
+			float: none;
+			float: left;
+			background-color: #EFCF83;
+			width: 100%;
+			height: 39px;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+			border-top: 6px solid goldenrod;
+			border-bottom: 6px solid goldenrod;
+	}
+
+	#h1barracont{
+		width: 100%;
+		height: 25px;
+	}
+
+	#h1barracont a{
+		font-family: Rockwell;
+		padding: 0 5px;
+	}
+
+/*---------FIN INDEX--------------------------------------------------------*/
+
+/*---------CRONOGRAMA--------------------------------------------------------*/
+
+	#bodyCronograma{
+		background-color: palegoldenrod;
+		margin: 0 auto;
+		padding: 0;
+		font-family: Rockwell;
+	}
+
+	#inputCronograma{
+		clear: right;
+		float: right;
+		width: 20%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 10px;
+		margin-right: 40%;
+	}
+
+	#selectCronograma{
+		clear: right;
+		float: right;
+		width: 20%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-top: 10px;
+		margin-right: 40%;
+	}
+
+	#formviajes{
+		float: left;
+		width: 36%;
+		height: 450px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 1%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	.inputViajes{
+		clear: left;
+		width: 70%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 5px;
+	}
+
+	.selectViajes{
+		clear: left;
+		width: 40%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		text-align: center;
+	}
+
+	.selectViajesC{
+		clear: left;
+		width: 75%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		text-align: center;
+	}
+
+	.labelViajes{
+		clear: right;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 5px 15px;
+		margin-right: 5px;
+	}
+
+	.Columna1{
+		float: left;
+	}
+	.Columna2{
+		float: right;
+	}
+
+	#EnviarCronograma{
+		float: left;
+		width: 20%;
+		height: 35px;
+		margin-top: 10%;
+		margin-left: 40%;
+		margin-bottom: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#EnviarViajes{
+		float: left;
+		width: 50%;
+		height: 35px;
+		margin-top: 10%;
+		margin-left: 27%;
+		margin-bottom: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	
+
+	#ContTablasCronograma{
+		float: left;
+		width: 90%;
+		height: 500px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 5%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		text-align: center;
+		padding: 37px 4px;
+		overflow: hidden;
+	}
+
+	.ContTablas{
+		float: left;
+		width: 60%;
+		height: 450px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 2%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-bottom: 10px solid #0D214F;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		text-align: center;
+		padding: 37px 4px;
+		overflow: hidden;
+	}
+
+	.tablas{
+		background-color: palegoldenrod;
+		text-align: center;
+		border-collapse: collapse;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.tablas th,.tablas td{
+		padding: 15px;
+		border:solid 5px #2D8489;
+	}
+
+	.tablas thead{
+		border-bottom: solid 5px red;
+
+	}
+
+	.tablas tr{
+		border-bottom: solid 5px;
+	}
+
+	.volver{
+		position: absolute;
+		bottom: 15%;
+		left: 74%;
+		padding: 8px;
+		width: 15%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	.elimbutViaje{
+		width: 95%;
+		height: 35px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#editbutViajes{
+		width: 95%;
+		height: 35px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+
+
+/*---------FIN CRONOGRAMA--------------------------------------------------------*/
+
+
+
+
+
+
+/*---------DISPONIBILIDAD--------------------------------------------------------*/
+
+	#bodyDisponibilidad{
+			background-color: palegoldenrod;
+			margin: 0 auto;
+			padding: 0;
+			font-family: Rockwell;
+	}
+
+	#contTablasDispo{
+		float: left;
+		width: 90%;
+		height: 500px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 5%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		text-align: center;
+		padding: 37px 4px;
+	}
+
+	#contTablasDispoAsientos{
+		float: left;
+		width: 90%;
+		height: 50rem;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-left: 5%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		text-align: center;
+		padding: 10px 4px;
+	}
+
+	.labelDispo{
+		clear: right;
+		position: relative;
+		top: 5px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 15px;
+		margin-bottom: 1rem;
+	}
+
+	#inputDispoFecha{
+		clear: right;
+		float: right;
+		width: 12%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: 43%;
+	}
+
+	#inputDispoHora{
+		clear: right;
+		float: right;
+		width: 9%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: 45%;
+	}
+
+	#selectDispo{
+		clear: right;
+		float: right;
+		width: 17%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-right: 41%;
+	}
+
+	#selectDispoFechas{
+		clear: right;
+		float: right;
+		width: 17%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-right: 41%;
+	}
+
+	#h2NoDispo{
+		position: relative;
+		top: 25px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 15px;
+	}
+
+	.tituloH1Dispo{
+		position: relative;
+		left: 25%;
+		width: 50%;
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+		border-bottom: solid 5px #0D214F;
+		border-radius: 15px;
+	}
+
+	#EnviarDispo{
+			float: left;
+			width: 20%;
+			height: 35px;
+			margin-top: 5%;
+			margin-left: 41%;
+			margin-bottom: 15px;
+			font-size: 15px;
+			font-weight: bold;
+			border: none;
+			border-radius: 6px;
+			background-color: #0D214F;
+			color: lightgrey;
+	}
+
+	#volverDispo{
+		clear: left;
+		position: absolute;
+		bottom: 10%;
+		left: 70%;
+		padding: 8px;
+		width: 15%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#atrasDispo{
+		clear: left;
+		position: absolute;
+		bottom: -25%;
+		left: 70%;
+		padding: 8px;
+		width: 15%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#siguienteDisponibilidad{
+		position: absolute;
+		top: 10rem;
+		left: 50rem;
+		padding: 8px;
+		width: 5%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#atrasDisponibilidad{
+		position: absolute;
+		top: 10rem;
+		left: 28rem;
+		padding: 8px;
+		width: 5%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#TablaPrimeroDispo{
+		float: left;
+		margin-left: 29.5rem;
+		font-size: 15px;
+
+	}
+
+	#TablaPrimeroDispo div{
+		appearance: none;
+		background-color: green;
+		color: white;
+		margin: 0;
+		width: 2rem;
+		height: 2rem;
+		border: 2px solid #0D214F;
+		border-radius: 2px;
+		margin-left: 3px;
+		margin-bottom: 10px;
+		clip-path: polygon(10% 50%,20% 10%, 80% 10%, 90% 50%, 100% 300%, 50% 100%, 5% 300%);
+	}
+
+	#TablaPrimeroDispo label{
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 0px;
+	}
+
+	#TablaSegundaDispo{
+		float: left;
+		margin-left: 3rem;
+		font-size: 15px;
+	}
+
+	#TablaSegundaDispo div{
+		appearance: none;
+		background-color: green;
+		color: white;
+		margin: 0;
+		width: 2rem;
+		height: 2rem;
+		border: 2px solid #0D214F;
+		border-radius: 2px;
+		margin-left: 3px;
+		margin-bottom: 10px;
+		clip-path: polygon(10% 50%,20% 10%, 80% 10%, 90% 50%, 100% 300%, 50% 100%, 5% 300%);
+	}
+
+	#TablaSegundaDispo label{
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 0px;
+	}
+
+	#DestinoElegidaDispo{
+		position: absolute;
+		top: 14em;
+		left: 8rem;
+		width: 20rem;
+		height: 6rem;
+		font-size: 25px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 0px;
+		border-radius: 25%;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		border-right: 2px solid black;
+	}
+
+	#fechaElegidaDispo{
+		position: absolute;
+		top: 13rem;
+		left: 8rem;
+		width: 20rem;
+		height: 6rem;
+		font-size: 30px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 0px;
+		border-radius: 25%;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		border-right: 2px solid black;
+	}
+
+	#strongFechaElegidaDispo{
+		position: absolute;
+		top: 0rem;
+		left: 4rem;
+		font-size: 21px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;
+	}
+
+
+	
+
+/*---------FIN DISPONIBILIDAD--------------------------------------------------------*/
+
+
+
+
+/*---------BOLETOS COMPRADOS--------------------------------------------------------*/
+
+	#noBoletoComprado{
+		padding-bottom: 10px;
+		border-bottom: solid 5px black;
+	}
+
+	#ContComprados{
+		width: 90%;
+		height: 500px;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 5%;
+		text-align: center;
+		padding: 20px 30px;
+		overflow: hidden;
+		position: absolute;
+		}
+
+	#compraCronograma{
+		display: block;
+		padding: 8px;
+		margin-top: 3%;
+		margin-left: 35%;
+		width: 30%;
+		height: 40px;
+		font-size: 20px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#labelCompra{
+		font-size: 20px;
+	}
+
+	#tablaBoletosCompradosV{
+		background-color: goldenrod;
+		padding: 5px;
+		margin-top: 1rem;
+		margin-left: 17rem;
+		width: 100%;
+		height: 16.2rem;
+		overflow: auto;
+		display: block;
+	}
+
+	#tablaBoletosCompradosViajesAdmin{
+		background-color: goldenrod;
+		padding: 5px;
+		margin-top: 1rem;
+		width: 100%;
+		height: 16.2rem;
+		overflow: auto;
+		display: block;
+	}
+
+	#ContTablasVerBoleCompra{
+		float: left;
+		width: 80%;
+		height: 450px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 10%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		text-align: center;
+		padding: 37px 4px;
+		overflow: hidden;
+	}
+
+	#VerPDF{
+		clear: left;
+		padding: 8px;
+		width: 100%;
+		height: 30px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#formPDF .hide{
+		overflow: hidden;
+	}
+
+	#volverComprados{
+		float: left;
+		padding: 8px;
+		width: 20%;
+		height: 35px;
+		margin-left: 77%;
+		margin-top: 3%;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#ContTablasViajes{
+		float: left;
+		width: 56%;
+		height: 450px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 2%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		text-align: center;
+		padding: 37px 4px;
+		overflow: hidden;
+	}
+
+
+/*---------FIN BOLETOS COMPRADOS--------------------------------------------------------*/
+
+
+
+/*---------BOLETERIAS--------------------------------------------------------*/
+
+	#divBoleterias{
+		position: absolute;
+		width: 60%;
+		height: 510px;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-left: 20%;
+		text-align: center;
+		padding: 20px 30px;
+		background-color: goldenrod;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+		display: block;
+		overflow: hidden;
+	}
+
+	#tablaBoleterias{
+		background-color: palegoldenrod;
+		text-align: center;
+		border-collapse: collapse;
+		width: 70%;
+		height: 309px;
+		margin-top: 2%;
+		margin-left: 15%;
+		display: block;
+		overflow: auto;
+	}
+
+	#tablaBoleterias th,#tablaBoleterias td{
+		padding: 15px;
+		border:solid 5px #2D8489;
+	}
+
+	#tablaBoleterias thead{
+		border-bottom: solid 5px red;
+
+	}
+
+	#tablaBoleterias tr{
+		border-bottom: solid 5px;
+	}
+
+	#volverBoleterias{
+		float: left;
+		padding: 9px;
+		width: 17%;
+		height: 7%;
+		margin-top: 5px;
+		margin-left: 22%;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#atrasBoleteria{
+		float: left;
+		padding: 5px;
+		width: 30%;
+		height: 9%;
+		margin-top: 5px;
+		margin-left: 36%;
+		margin-bottom: 
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		text-align: center;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#crearBoleterias{
+		float: left;
+		padding: 9px;
+		width: 17%;
+		height: 7%;
+		margin-top: 5px;
+		margin-left: 20%;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	.tituloH1Boleterias{
+		position: relative;
+		left: 25%;
+		width: 50%;
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+		border-bottom: solid 5px #0D214F;
+		border-radius: 15px;
+	}
+
+	#boleteriaForm{
+		width: 500px;
+		height: 400px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 150px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#boleteriaForm h1{
+		font-family: Rockwell;
+		font-size: 20px;
+		text-align: center;
+		height: 30px;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.inputBoleteria{
+		clear: right;
+		float: right;
+		width: 50%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 5px;
+		margin-right: 25%;
+	}
+
+	#enviarBoleteria{
+		width: 50%;
+		height: 35px;
+		margin-left: 25%;
+		margin-bottom: 10px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	.formBoleteriaLabel{
+		clear: right;
+		float: right;
+		position: relative;
+		top: 5px;
+		left: 5px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 15px;
+		margin-bottom: 5px;
+		margin-right: 28%;
+	}
+
+	.formBoleteriaLabelEncargado{
+		clear: right;
+		float: right;
+		position: relative;
+		top: 5px;
+		left: 5px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 15px;
+		margin-bottom: 5px;
+		margin-right: 38%;
+	}
+
+
+	.selectBoleteria{
+		clear: right;
+		float: right;
+		width: 50%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-right: 25%;
+		margin-bottom: 7px;
+	}
+
+	#editarBolete{
+		width: 80%;
+		height: 35px;
+		margin-bottom: 10px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#elimBolete{
+		width: 90%;
+		height: 35px;
+		margin-bottom: 10px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+/*---------FIN BOLETERIAS--------------------------------------------------------*/
+
+
+
+
+/*---------COMPRA BOLETOS--------------------------------------------------------*/
+	
+	#idh1CompraBoletos{
+		font-weight: bold;
+		padding: 5px;
+		border-bottom: 4px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	#elegirCompraBoleto{
+		width: 50%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-left: 25%;
+		margin-top: 15px;
+		padding: 10px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#compraBoletosForm{
+		width: 600px;
+		height: 500px;
+		text-align: center;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-right: 28%;
+		margin-top: 50px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#compraBoletosForm label{
+		font-size: 20px;
+	}
+
+	.selectCompraBoletos:active{
+		width: 50%;
+		height: 30px;
+		border-radius: 6px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		border-radius: 0px;
+		margin-bottom: 15px;
+	}
+
+	.selectCompraBoletos{
+		width: 50%;
+		height: 30px;
+		border-radius: 6px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		border-radius: 0px;
+		margin-bottom: 15px;
+	}
+
+	.selectCompraBoletosPlazaClase{
+		width: 30%;
+		height: 30px;
+		border-radius: 6px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		border-radius: 0px;
+		margin-bottom: 15px;
+	}
+
+	#volverCompraBoletos{
+		width: 15%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-left: 80%;
+		margin-top: 20px;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#inputCompraBoletos{
+		width: 50%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 25px;
+	}
+
+/*---------FIN COMPRA BOLETOS--------------------------------------------------------*/
+
+
+
+
+/*---------COMPRA BOLETOS VENDIDOS--------------------------------------------------------*/
+
+	#formCompraBoletosAsientos{
+		float: left;
+		width: 90%;
+		height: 70%;
+		text-align: center;
+		margin: 0 auto;
+		margin-left: 2%;
+		margin-right: 3%;
+		margin-top: 50px;
+		border-radius: 5px;
+		padding: 20px 30px;
+	}
+
+	#formCompraBoletosAsientos label{
+		font-size: 20px;
+	}
+
+	#formCompraBoletosAsientos strong{
+		font-size: 20px;
+		margin: 0 auto;
+	}
+
+	#contCompraBoletosAsientos{
+		clear: left;
+		float: right;
+		width: 500px;
+		height: 450px;
+		text-align: center;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-left: 2%;
+		margin-right: 3%;
+		margin-top: 10px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+		overflow: auto;
+	}
+
+	#contCompraBoletosAsientosTipoPago{
+		float: left;
+		width: 500px;
+		height: 500px;
+		text-align: center;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-left: 2%;
+		margin-right: 3%;
+		margin-top: 10px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#contCompraDeAsientos{
+		float: left;
+		width: 500px;
+		height: 100%;
+		text-align: center;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-left: 2%;
+		margin-right: 3%;
+		margin-top: 10px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#CompraExitosa{
+		float: none;
+		float: left;
+		width: 90%;
+		height: 70%;
+		text-align: center;
+		margin: 0 auto;
+		margin-left: 5%;
+		margin-top: 50px;
+		border-radius: 5px;
+		padding: 20px 30px;
+	}
+
+	#CompraExitosa label{
+		font-size: 20px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.volverCompraExitosa{
+		width: 20%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: 40%;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	.selectCompraBoletos{
+		width: 50%;
+		height: 30px;
+		border-radius: 6px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		border-radius: 0px;
+		margin-bottom: 15px;
+	}
+
+	.inputCompraBoletosAsientos{
+		width: 50%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	.botonesCompraBoletosAsientos{
+		float: none;
+		float: left;
+		width: 20%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 20%;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	.containerCheckBox{
+		float: left;
+	}
+
+	.containerCheckBox input[type="checkbox"]{
+		appearance: none;
+		margin: 0;
+		font: inherit;
+		background-color: #0D214F;
+		color: currentColor;
+		width: 1.75rem;
+		height: 1.75rem;
+		margin: 0.3rem;
+		border-radius: 2px;
+		transform: translateY(-2px);
+		display: grid;
+		place-content: center;
+		clear: left;
+		float: left;
+        clip-path: polygon(10% 50%,20% 10%, 80% 10%, 90% 50%, 100% 300%, 50% 100%, 5% 300%);
+	}
+
+	.containerCheckBox input[type="checkbox"]:checked {
+		transform: scale(1);
+		background-color: darkgreen;
+		transform: translateY(+2px);
+		clip-path: polygon(10% 50%,20% 10%, 80% 10%, 90% 50%, 100% 300%, 50% 100%, 5% 300%);
+  		
+	}
+
+	.containerCheckBox label{
+		float: left;
+		margin-left: 0.65rem;
+	}
+
+	#TablaPrimero{
+		float: left;
+		margin-left: 6rem;
+		font-size: 15px;
+	}
+
+	#TablaPrimero div{
+		appearance: none;
+		background-color: green;
+		color: white;
+		margin: 0;
+		width: 25px;
+		height: 25px;
+		border: 2px solid #0D214F;
+		border-radius: 2px;
+		margin-left: 3px;
+		margin-bottom: 10px;
+
+	}
+
+	#TablaSegunda{
+		float: left;
+		margin-left: 3rem;
+		font-size: 15px;
+	}
+
+	#TablaSegunda div{
+		appearance: none;
+		background-color: green;
+		color: white;
+		margin: 0;
+		width: 25px;
+		height: 25px;
+		border: 2px solid #0D214F;
+		border-radius: 2px;
+		margin-left: 3px;
+		margin-bottom: 10px;
+
+	}
+
+	#sigui{
+		position: absolute;
+		top: 9.5rem;
+		left: 62rem;
+		padding: 8px;
+		width: 5%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#atras{
+		position: absolute;
+		top: 9.5rem;
+		left: 43rem;
+		padding: 8px;
+		width: 5%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	.Vagon{
+		font-size: 20px;
+		font-weight: bold;
+		margin-right: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	#botonesCompraBoletosAsientosComprar{
+		position: absolute;
+		top: 35rem;
+		left: 11rem;
+		width: 10%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#botonesCompraBoletosAsientosCancelar{
+		position: absolute;
+		width: 10%;
+		top: 35rem;
+		left: 21rem;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+/*---------FIN COMPRA BOLETOS VENDIDOS--------------------------------------------------------*/
+
+
+
+
+/*---------TRENES--------------------------------------------------------*/
+
+	#contTablasTrenes{
+		float: left;
+		width: 50%;
+		height: 500px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 26%;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		text-align: center;
+		padding: 37px 4px;
+		overflow: hidden;
+
+	}
+
+	#tablaTrenes{
+		margin-left: 5%;
+		width: 40.5%;
+		height: 49.5%;
+		overflow: auto;
+		display: block;
+		position: absolute;
+		background-color: goldenrod;
+	}
+
+	#CrearTrenes{
+		position: absolute;
+		padding: 8px;
+		width: 14%;
+		height: 35px;
+		margin-top: 27%;
+		margin-left: -5%;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#volverTrenes{
+		position: absolute;
+		margin-top: 27%;
+		margin-left: 35%;
+		width: 10%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#inputCompraBoletos{
+		width: 50%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 25px;
+	}
+
+	#contTrenes{
+		position: absolute;
+		width: 100%;
+	}
+
+	#trenesForm{
+		width: 500px;
+		height: 450px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 75px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#h3IngreTrenes{
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#volverIngreTrenes{
+		float: right;
+		margin-top: 15px;
+		padding: 8px;
+		width: 20%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		text-align: center;
+		color: lightgrey;
+	}
+
+	#registerTrenes{
+		float: left;
+		width: 50%;
+		height: 35px;
+		margin-left: 17%;
+		margin-top: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+		font-family: Rockwell;
+	}
+
+	.labelTrenes{
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+	}
+
+
+
+	.inputTrenes{
+		width: 85%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	#inputTrenesDescripcion{
+		width: 85%;
+		height: 90px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	.elimbutTrenes{
+		width: 95%;
+		height: 35px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	.editbutTrenes{
+		width: 95%;
+		height: 35px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#selectTrenes{
+		width: 85%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-right: 22%;
+	}
+
+/*---------FIN TRENES--------------------------------------------------------*/
+
+
+
+
+/*---------BOLETOS VENDIDOS--------------------------------------------------------*/
+
+	#ContTablasBoletosVendidos{
+		width: 75%;
+		height: 500px;
+		margin: 0 auto;
+		margin-top: 50px;
+		margin-left: 13%;
+		text-align: center;
+		padding: 20px 30px;
+		overflow: hidden;
+		position: absolute;
+	}
+
+	#tablaBoletosComprados{
+		background-color: goldenrod;
+		padding: 8px;
+		margin-top: 3%;
+		margin-left: 5%;
+		width: 100%;
+		height: 70%;
+		overflow: auto;
+	}
+
+	#tablaBoletosCompradosVendidos{
+		background-color: goldenrod;
+		padding: 8px;
+		margin-top: 3rem;
+		width: 100%;
+		height: 67%;
+		overflow: auto;
+		display: block;
+
+	}
+
+	.labelVendi{
+		clear: right;
+		position: relative;
+		top: 5px;
+		display: block;
+		font-family: Rockwell;
+		font-weight: bold;	
+		text-decoration: none;
+		padding: 5px 15px;
+	}
+
+	.inputVendiFecha{
+		clear: right;
+		float: right;
+		width: 12%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: 43%;
+	}
+
+	.selectVendi{
+		clear: right;
+		float: right;
+		width: 17%;
+		height: 40px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-right: 41%;
+	}
+
+	.tituloH1Vendi{
+		position: relative;
+		left: 25%;
+		width: 50%;
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+		border-bottom: solid 5px #0D214F;
+		border-radius: 15px;
+	}
+
+	#EnviarVendidos{
+			float: left;
+			width: 20%;
+			height: 35px;
+			margin-top: 5%;
+			margin-left: 41%;
+			margin-bottom: 15px;
+			font-size: 15px;
+			font-weight: bold;
+			border: none;
+			border-radius: 6px;
+			background-color: #0D214F;
+			color: lightgrey;
+	}
+
+	#volverVendi{
+		clear: left;
+		position: absolute;
+		bottom: 3rem;
+		left: 45rem;
+		padding: 8px;
+		width: 15%;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#tablaDispo{
+		float: left;
+		background-color: palegoldenrod;
+		width: 65%;
+		height: 275px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-left: 18%;
+		text-align: center;
+		border-collapse: collapse;
+		display: block;
+		overflow: auto;
+	}
+
+	#tablaDispo th,#tablaDispo td{
+		padding: 15px;
+		border:solid 5px #2D8489;
+	}
+
+	#tablaDispo thead{
+		border-bottom: solid 5px red;
+	}
+
+	#tablaDispo tr{
+		border-bottom: solid 5px;
+	}
+
+	#atrasBoletosVendidos{
+		float: left;
+		padding: 8px;
+		width: 20%;
+		height: 35px;
+		margin-left: 40rem;
+		margin-top: 13rem;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+
+/*---------FIN BOLETOS VENDIDOS--------------------------------------------------------*/
+
+
+
+
+/*---------REGISTRO USUARIOS--------------------------------------------------------*/
+
+	#bodyRegistroUsuarios{
+		background: url('Imagenes/Login.jpg');
+		background-color: palegoldenrod;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.inputRegistro{
+		width: 100%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	#registerForm{
+		width: 400px;
+		height: 490px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 50px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#enviarRegistro{
+		width: 50%;
+		height: 35px;
+		margin-left: 25%;
+		margin-top: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#hregister{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	#atrasRegistro{
+		float: left;
+		text-align: center;
+		padding: 8px;
+		width: 25%;
+		height: 35px;
+		margin-left: 38%;
+		margin-top: 5%;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+
+/*---------FIN REGISTRO USUARIOS--------------------------------------------------------*/
+
+
+
+
+
+/*---------LOGIN--------------------------------------------------------*/
+
+	#bodyInicioSesion{
+		background: url('Imagenes/FondoLogin.jpg') no-repeat center center fixed;
+		background-size: cover;
+		background-color: navajowhite;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	#barraTrenes{
+		background-color: goldenrod;
+		width: 100%;
+		height: 50px;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		border-top: 6px solid #0D214F;
+		border-bottom: 6px solid #0D214F;
+	}
+
+	#h1BarraLogin{
+		width: 100%;
+		padding: 5px;
+	}
+
+	#h1BarraLogin a{
+		font-family: Rockwell;
+		padding: 0 50px;
+	}
+
+	#loginForm{
+		width: 450px;
+		height: 350px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 150px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#loginForm h3{
+		font-family: Rockwell;
+		font-size: 20px;
+		text-align: center;
+		height: 30px;
+		margin: 0;
+	}
+
+	.inputLogin{
+		width: 100%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	#EnviarLogin{
+		width: 50%;
+		height: 35px;
+		margin-left: 25%;
+		margin-bottom: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#formLabelLogin{
+		font-family: Rockwell;
+		font-size: 20px;
+		margin-left: 10%;
+		font-weight: bold;
+	}
+
+	#registerA{
+		font-family: Rockwell;
+		width: 50%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-left: 25%;
+		margin-top: 15px;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#volverIniSesion{
+		float: left;
+		text-align: center;
+		padding: 8px;
+		width: 25%;
+		height: 35px;
+		margin-left: 38%;
+		margin-top: 5%;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+/*---------FIN LOGIN--------------------------------------------------------*/
+
+
+
+
+/*---------EMPLEADOS--------------------------------------------------------*/
+
+	#ContTablasEmpleados{
+		width: 90%;
+		height: 500px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-left: 5%;
+		border-radius: 5px;
+		text-align: center;
+		padding: 20px 30px;
+		overflow: auto;
+	}
+
+	#ContNoRegistrado{
+		width: 100%;
+		height: 10%;
+		margin: 0 auto;
+		margin-top: 10px;
+		border-radius: 5px;
+		text-align: center;
+		padding: 20px 30px;
+		overflow: auto;
+	}
+
+	#registerEmpleadoNuevo{
+		width: 10%;
+		height: 50px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 45%;
+		padding: 15px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#ContNoExiste{
+		width: 90%;
+		height: 10%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-left: 5%;
+		border-radius: 5px;
+		text-align: center;
+		padding: 20px 30px;
+		overflow: auto;
+	}
+
+	#ContNoExiste label{
+		font-size: 20px;
+		margin: 0 auto;
+	}
+
+	.aEmpleadosEditarAtras{
+		width: 25%;
+		height: 35px;
+		display: block;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 4%;
+		margin-left: 37%;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	.botonesEmpleados{
+		float: none;
+		float: left;
+		width: 60%;
+		height: 35px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 20%;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#aEmpleadosAgregar{
+		float: none;
+		float: left;
+		width: 20%;
+		height: 50px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 10%;
+		padding: 15px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#aEmpleadosRetroceder{
+		float: none;
+		float: left;
+		width: 15%;
+		height: 35px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 4%;
+		margin-left: 50%;
+		padding: 8px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	#selectRegistro{
+		width: 100%;
+		height: 30px;
+		border-radius: 6px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		text-align: center;
+		font-weight: bold;
+		border-radius: 0;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	#registerEmpleadoForm{
+		width: 400px;
+		height: 500px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-top: 35px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#enviarRegistroEmple{
+		float: left;
+		width: 50%;
+		height: 35px;
+		margin-left: 2%;
+		margin-top: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#atrasREmple{
+		float: right;
+		padding: 8px;
+		width: 30%;
+		height: 35px;
+		margin-left: 5%;
+		margin-top: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+
+	/*EMPLEADO BUSCADOR*/
+
+	#idbuscador{
+		width: 30%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: floralwhite;
+		opacity: 80%;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+	}
+	#formBuscar{
+		padding: 5px 5px;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	#formBuscar label{
+		font-size: 20px;
+		margin: 0 auto;
+		margin-right: 5%;
+	}
+
+	#BuscarEmpleados{
+		width: 2%;
+		height: 31px;
+		background-color: #0D214F;
+		color: lightgrey;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		box-sizing: border-box;
+		border-style: none;
+		border-radius: 6px;
+		border: none;
+	}
+	/*FIN EMPLEADO BUSCADOR*/
+
+/*---------FIN EMPLEADOS--------------------------------------------------------*/
+
+
+
+
+/*---------CONTACTAR--------------------------------------------------------*/
+
+	#formContactar{
+		width: 400px;
+		height: 400px;
+		background-color: goldenrod;
+		margin: 0 auto;
+		margin-left: 36%;
+		margin-top: 50px;
+		border-radius: 5px;
+		box-shadow: 10px 15px 30px dimgrey;
+		border-right: 10px solid #0D214F;
+		border-left: 10px solid	#0D214F;
+		padding: 20px 30px;
+	}
+
+	#formContactar h3,#formContactar label{
+		font-family: Rockwell;
+		font-size: 20px;
+		text-align: center;
+		height: 30px;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	#EnviarContactar{
+		float: left;
+		width: 50%;
+		height: 35px;
+		margin-left: 2%;
+		margin-top: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	#atrasContacto{
+		float: right;
+		padding: 8px;
+		width: 30%;
+		height: 35px;
+		margin-left: 5%;
+		margin-top: 15px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		border: none;
+		border-radius: 6px;
+		background-color: #0D214F;
+		color: lightgrey;
+	}
+
+	.inputContactar{
+		width: 100%;
+		height: 30px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+	#textContactar{
+		width: 100%;
+		height: 100px;
+		border-radius: 6px;
+		padding: 10px;
+		background-color: #ab9a7c;
+		color: black;
+		font-size: 15px;
+		font-weight: bold;
+		border: 2px solid darkblue;
+		margin-bottom: 15px;
+	}
+
+/*---------FIN CONTACTAR--------------------------------------------------------*/
